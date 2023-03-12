@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "256167971734",
+    "project_id": "donationusedclothing",
+    "storage_bucket": "donationusedclothing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256167971734:android:36160664ff3c57f23a6bb7",
+        "android_client_info": {
+          "package_name": "com.example.donationusedclothing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256167971734-ipe58ha0gsaa8inc47ujadf30apors3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgecZn60bPwHqsSc9W3qGoHHAeoCE4mdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256167971734-ipe58ha0gsaa8inc47ujadf30apors3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

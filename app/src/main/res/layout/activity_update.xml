@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    tools:context=".UpdateActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <ImageView
+            android:id="@+id/btn_backUpdateActivity"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/back_button" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:background="@drawable/skyblue_border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Donation"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:src="@drawable/ic_baseline_cloud_upload_24"
+                android:id="@+id/updateImage"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateTitle"
+                android:background="@drawable/skyblue_border"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:hint="Update cloth type eg:T-shirt"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateDesc"
+                android:background="@drawable/skyblue_border"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:hint="Update donor name"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateLang"
+                android:background="@drawable/skyblue_border"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:hint="Update contact number "
+                android:gravity="start|center_vertical"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateItemsize"
+                android:background="@drawable/skyblue_border"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:hint="Update item size eg: M"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateItemcolor"
+                android:background="@drawable/skyblue_border"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:hint="Update item color eg: Green"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateMeetuppoint"
+                android:background="@drawable/skyblue_border"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:hint="Update meetup point eg: Address"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Update"
+                android:id="@+id/updateButton2"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                app:cornerRadius = "20dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
